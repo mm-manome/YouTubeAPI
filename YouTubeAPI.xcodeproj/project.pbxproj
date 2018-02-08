@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68DAC2C9202D0194002E68E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2C8202D0194002E68E0 /* main.swift */; };
+		68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D2202D01E5002E68E0 /* Search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		68DAC2C5202D0194002E68E0 /* YouTubeAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YouTubeAPI; sourceTree = BUILT_PRODUCTS_DIR; };
-		68DAC2C8202D0194002E68E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		68DAC2D2202D01E5002E68E0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,33 @@
 		68DAC2C7202D0194002E68E0 /* YouTubeAPI */ = {
 			isa = PBXGroup;
 			children = (
-				68DAC2C8202D0194002E68E0 /* main.swift */,
+				68DAC2D1202D01B7002E68E0 /* Request */,
+				68DAC2CF202D01A7002E68E0 /* Error */,
+				68DAC2D0202D01AF002E68E0 /* Response */,
+				68DAC2D2202D01E5002E68E0 /* Search.swift */,
 			);
 			path = YouTubeAPI;
+			sourceTree = "<group>";
+		};
+		68DAC2CF202D01A7002E68E0 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		68DAC2D0202D01AF002E68E0 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		68DAC2D1202D01B7002E68E0 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DAC2C9202D0194002E68E0 /* main.swift in Sources */,
+				68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

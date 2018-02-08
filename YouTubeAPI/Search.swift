@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Search.swift
 //  YouTubeAPI
 //
 //  Created by Miyoshi Masataka on 2018/02/09.
@@ -7,6 +7,4 @@
 //
 
 import Foundation
-
-print("Hello, World!")
 
