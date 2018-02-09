@@ -10,6 +10,21 @@ import Foundation
 
 struct Snippet: Decodable {
     
+    // MARK: Properties
     
+    let channelId: String
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
