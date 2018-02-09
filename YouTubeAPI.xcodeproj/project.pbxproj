@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D2202D01E5002E68E0 /* Search.swift */; };
+		68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D4202D70EE002E68E0 /* Video.swift */; };
+		68DAC2D7202D713D002E68E0 /* Snippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D6202D713D002E68E0 /* Snippet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		68DAC2C5202D0194002E68E0 /* YouTubeAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YouTubeAPI; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DAC2D2202D01E5002E68E0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		68DAC2D4202D70EE002E68E0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		68DAC2D6202D713D002E68E0 /* Snippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,9 @@
 		68DAC2C7202D0194002E68E0 /* YouTubeAPI */ = {
 			isa = PBXGroup;
 			children = (
-				68DAC2D1202D01B7002E68E0 /* Request */,
-				68DAC2CF202D01A7002E68E0 /* Error */,
 				68DAC2D0202D01AF002E68E0 /* Response */,
+				68DAC2CF202D01A7002E68E0 /* Error */,
+				68DAC2D1202D01B7002E68E0 /* Request */,
 				68DAC2D2202D01E5002E68E0 /* Search.swift */,
 			);
 			path = YouTubeAPI;
@@ -75,6 +79,8 @@
 		68DAC2D0202D01AF002E68E0 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				68DAC2D4202D70EE002E68E0 /* Video.swift */,
+				68DAC2D6202D713D002E68E0 /* Snippet.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DAC2D7202D713D002E68E0 /* Snippet.swift in Sources */,
 				68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */,
+				68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
