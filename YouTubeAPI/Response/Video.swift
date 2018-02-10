@@ -15,7 +15,7 @@ struct Video: Decodable {
         // MARK: Properties
         
         let kind: String
-        let videoId: String
+//        let videoId: String
         
     }
     

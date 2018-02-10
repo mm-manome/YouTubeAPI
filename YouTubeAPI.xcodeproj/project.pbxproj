@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D2202D01E5002E68E0 /* Search.swift */; };
 		68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D4202D70EE002E68E0 /* Video.swift */; };
 		68DAC2D7202D713D002E68E0 /* Snippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2D6202D713D002E68E0 /* Snippet.swift */; };
 		68DAC2DB202E82A7002E68E0 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2DA202E82A7002E68E0 /* SearchResponse.swift */; };
@@ -18,6 +17,7 @@
 		68DAC2E7202E8F6E002E68E0 /* YouTubeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E6202E8F6E002E68E0 /* YouTubeAPI.swift */; };
 		68DAC2E9202E9C15002E68E0 /* YouTubeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E8202E9C15002E68E0 /* YouTubeClient.swift */; };
 		68DAC2EB202E9D8F002E68E0 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2EA202E9D8F002E68E0 /* Result.swift */; };
+		68DAC2ED202EA1F6002E68E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2EC202EA1F6002E68E0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		68DAC2C5202D0194002E68E0 /* YouTubeAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YouTubeAPI; sourceTree = BUILT_PRODUCTS_DIR; };
-		68DAC2D2202D01E5002E68E0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		68DAC2D4202D70EE002E68E0 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		68DAC2D6202D713D002E68E0 /* Snippet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snippet.swift; sourceTree = "<group>"; };
 		68DAC2DA202E82A7002E68E0 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		68DAC2E6202E8F6E002E68E0 /* YouTubeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPI.swift; sourceTree = "<group>"; };
 		68DAC2E8202E9C15002E68E0 /* YouTubeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeClient.swift; sourceTree = "<group>"; };
 		68DAC2EA202E9D8F002E68E0 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		68DAC2EC202EA1F6002E68E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				68DAC2D0202D01AF002E68E0 /* Response */,
 				68DAC2CF202D01A7002E68E0 /* Error */,
 				68DAC2D1202D01B7002E68E0 /* Request */,
-				68DAC2D2202D01E5002E68E0 /* Search.swift */,
+				68DAC2EC202EA1F6002E68E0 /* main.swift */,
 			);
 			path = YouTubeAPI;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 				68DAC2E3202E8B7A002E68E0 /* YouTubeRequest.swift in Sources */,
 				68DAC2D7202D713D002E68E0 /* Snippet.swift in Sources */,
 				68DAC2E5202E8CF1002E68E0 /* HTTPMethod.swift in Sources */,
-				68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */,
+				68DAC2ED202EA1F6002E68E0 /* main.swift in Sources */,
 				68DAC2DF202E8450002E68E0 /* YouTubeClientError.swift in Sources */,
 				68DAC2E7202E8F6E002E68E0 /* YouTubeAPI.swift in Sources */,
 				68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */,
