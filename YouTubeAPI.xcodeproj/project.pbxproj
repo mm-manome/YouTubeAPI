@@ -13,6 +13,8 @@
 		68DAC2DB202E82A7002E68E0 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2DA202E82A7002E68E0 /* SearchResponse.swift */; };
 		68DAC2DF202E8450002E68E0 /* YouTubeClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2DE202E8450002E68E0 /* YouTubeClientError.swift */; };
 		68DAC2E1202E88B3002E68E0 /* YouTubeAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E0202E88B3002E68E0 /* YouTubeAPIError.swift */; };
+		68DAC2E3202E8B7A002E68E0 /* YouTubeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */; };
+		68DAC2E5202E8CF1002E68E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		68DAC2DA202E82A7002E68E0 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		68DAC2DE202E8450002E68E0 /* YouTubeClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeClientError.swift; sourceTree = "<group>"; };
 		68DAC2E0202E88B3002E68E0 /* YouTubeAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPIError.swift; sourceTree = "<group>"; };
+		68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeRequest.swift; sourceTree = "<group>"; };
+		68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		68DAC2D1202D01B7002E68E0 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */,
+				68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			files = (
 				68DAC2DB202E82A7002E68E0 /* SearchResponse.swift in Sources */,
 				68DAC2E1202E88B3002E68E0 /* YouTubeAPIError.swift in Sources */,
+				68DAC2E3202E8B7A002E68E0 /* YouTubeRequest.swift in Sources */,
 				68DAC2D7202D713D002E68E0 /* Snippet.swift in Sources */,
+				68DAC2E5202E8CF1002E68E0 /* HTTPMethod.swift in Sources */,
 				68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */,
 				68DAC2DF202E8450002E68E0 /* YouTubeClientError.swift in Sources */,
 				68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */,

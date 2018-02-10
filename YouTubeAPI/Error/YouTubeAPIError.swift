@@ -24,7 +24,7 @@ struct YouTubeAPIError: Decodable, Error {
         
         // MARK: Properties
         
-        let fieldError: [FieldError]
+        let fieldErrors: [FieldError]
         let message: String
         
     }
