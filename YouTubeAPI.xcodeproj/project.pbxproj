@@ -15,6 +15,7 @@
 		68DAC2E1202E88B3002E68E0 /* YouTubeAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E0202E88B3002E68E0 /* YouTubeAPIError.swift */; };
 		68DAC2E3202E8B7A002E68E0 /* YouTubeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */; };
 		68DAC2E5202E8CF1002E68E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */; };
+		68DAC2E7202E8F6E002E68E0 /* YouTubeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DAC2E6202E8F6E002E68E0 /* YouTubeAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		68DAC2E0202E88B3002E68E0 /* YouTubeAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPIError.swift; sourceTree = "<group>"; };
 		68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeRequest.swift; sourceTree = "<group>"; };
 		68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		68DAC2E6202E8F6E002E68E0 /* YouTubeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				68DAC2E2202E8B7A002E68E0 /* YouTubeRequest.swift */,
 				68DAC2E4202E8CF1002E68E0 /* HTTPMethod.swift */,
+				68DAC2E6202E8F6E002E68E0 /* YouTubeAPI.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				68DAC2E5202E8CF1002E68E0 /* HTTPMethod.swift in Sources */,
 				68DAC2D3202D01E5002E68E0 /* Search.swift in Sources */,
 				68DAC2DF202E8450002E68E0 /* YouTubeClientError.swift in Sources */,
+				68DAC2E7202E8F6E002E68E0 /* YouTubeAPI.swift in Sources */,
 				68DAC2D5202D70EE002E68E0 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
