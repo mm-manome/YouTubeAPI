@@ -1,5 +1,5 @@
 //
-//  Id.swift
+//  SearchResponse.swift
 //  YouTubeAPI
 //
 //  Created by Miyoshi Masataka on 2018/02/10.
@@ -8,24 +8,12 @@
 
 import Foundation
 
-struct Id: Decodable {
+struct SearchRespnse<Item: Decodable> : Decodable {
     
     // MARK: Properties
     
+    let items: [Item]
     let kind: String
-    let videoId: String
+    let pageInfo: PageInfo
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

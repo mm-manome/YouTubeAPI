@@ -1,5 +1,5 @@
 //
-//  Id.swift
+//  PageInfo.swift
 //  YouTubeAPI
 //
 //  Created by Miyoshi Masataka on 2018/02/10.
@@ -8,24 +8,11 @@
 
 import Foundation
 
-struct Id: Decodable {
+struct PageInfo: Decodable {
     
     // MARK: Properties
     
-    let kind: String
-    let videoId: String
+    let resultsPerPage: Int
+    let totalResults: Int
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
