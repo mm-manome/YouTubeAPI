@@ -13,10 +13,9 @@ struct Video: Decodable {
     // MARK: Properties
     
     let etag: String
-    
+    let id: Id
     let kind: String
     let snippet: Snippet
-    
     
 }
 

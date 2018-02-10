@@ -13,6 +13,11 @@ struct Snippet: Decodable {
     // MARK: Properties
     
     let channelId: String
+    let channelTitle: String
+    let description: String
+    let publishedAt: String
+//    let thumbnails: Any
+    let title: String
     
 }
 
