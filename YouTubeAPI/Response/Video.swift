@@ -10,6 +10,15 @@ import Foundation
 
 struct Video: Decodable {
     
+    struct Id: Decodable {
+        
+        // MARK: Properties
+        
+        let kind: String
+        let videoId: String
+        
+    }
+    
     // MARK: Properties
     
     let etag: String

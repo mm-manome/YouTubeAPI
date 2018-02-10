@@ -10,13 +10,32 @@ import Foundation
 
 struct Snippet: Decodable {
     
+    struct Thumbnails: Decodable {
+        
+        struct Info: Decodable {
+            
+            // MARK: Properties
+            
+            let width: Int
+            let height: Int
+            let url: String
+            
+        }
+        
+        // MARK: Properties
+
+        let medium: Info
+        let high: Info
+        
+    }
+    
     // MARK: Properties
     
     let channelId: String
     let channelTitle: String
     let description: String
     let publishedAt: String
-//    let thumbnails: Any
+    let thumbnails: Thumbnails
     let title: String
     
 }

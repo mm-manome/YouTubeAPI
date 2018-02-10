@@ -10,10 +10,28 @@ import Foundation
 
 struct SearchRespnse<Item: Decodable> : Decodable {
     
+    struct PageInfo: Decodable {
+        
+        // MARK: Properties
+        
+        let resultsPerPage: Int
+        let totalResults: Int
+        
+    }
+    
     // MARK: Properties
     
     let items: [Item]
-    let kind: String
     let pageInfo: PageInfo
     
 }
+
+
+
+
+
+
+
+
+
+
