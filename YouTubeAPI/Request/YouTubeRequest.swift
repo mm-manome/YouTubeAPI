@@ -72,6 +72,24 @@ extension YouTubeRequest {
         
     }
     
+    func response(from data: Data, urlResponse: URLResponse) throws -> Response {
+        
+        let decoder = JSONDecoder()
+        
+        if case (200..<300)? = (urlResponse as? HTTPURLResponse)?.statusCode {
+            
+            // JSONからモデルをインスタンス化
+            return try decoder.decode(Response.self, from: data)
+            
+        } else {
+            
+            // JSONからAPIエラーをインスタンス化
+            throw try decoder.decode(YouTubeAPIError.self, from: data)
+            
+        }
+        
+    }
+    
 }
 
 
