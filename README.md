@@ -6,7 +6,7 @@
 )](https://developer.apple.com/swift)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
 )](http://mit-license.org)
-[![Twitter](https://img.shields.io/badge/twitter-@mm_manome-blue.svg?style=flat)](https://twitter.com/mm_manome)
+[![Twitter](https://img.shields.io/badge/twitter-@mstkmys-blue.svg?style=flat)](https://twitter.com/mstkmys)
 
 YouTubeDataAPIを使用するためのアプリケーション
 
